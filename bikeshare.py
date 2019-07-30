@@ -10,6 +10,7 @@ months = ('january', 'february', 'march', 'april', 'may', 'june', 'all')
 weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all')
 
 
+# cities, months, weekdays 선택 코드
 def choice(prompt, choices=('y', 'n')):
     while True:
         choice = input(prompt).lower().strip()  # 양쪽 공백제거, 소문자로 변경

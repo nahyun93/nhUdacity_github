@@ -1,9 +1,8 @@
 # Udacity Data Science Nanodegree Program
 
-#Project
-Explore US Bikeshare Data
+## Project : Explore US Bikeshare Data
 
-#DataSet
+### DataSet
 It has 3 data files for three cities: Chicago, New York City, and Washington.
 
 All three of the data files contain the same core six (6) columns:

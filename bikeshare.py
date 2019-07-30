@@ -209,7 +209,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
     
-def data_display(df):
+def data_display(df):    #사용자가 원할 시에만 5행 데이터 보여줌
     row_length = df.shape[0]
     for i in range(0,row_length, 5):
         answer = input("\nDo you like see the particular data? Please type yes/no.\n")
